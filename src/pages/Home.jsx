@@ -124,7 +124,7 @@ I am eager to contribute to the cybersecurity community by uncovering vulnerabil
           </div>
           <div className="certification">
             <img 
-              src = "src/SEO.png"
+              src = "/SEO.png"
          // src="https://udemy-certificate.s3.amazonaws.com/image/UC-d4d4bf3f-3fbf-4482-9c2e-9df0ed538601.jpg?v=1688419257000" 
               alt="Certification 2" 
               className="certification-image" 
