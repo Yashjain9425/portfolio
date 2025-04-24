@@ -7,7 +7,7 @@ const projects = [
     description: 'Cloud Bouncer gives protection from DoS and DDoS, have a login page where a user can login and see stats of his website after attack. It has 4 modules, 1) detector ai, 2) action module , 3) analysis module, 4) filter module ',
     roles : 'I was the team leader for this project, developed it for smart india hackathon 2024, worked on backend and developed the logic to automate segregation of malicious and normal ips  ' , 
     skills: ['React, nodejs, express, python, javascript'],
-    image: '/src/cloud_bouncer.jpeg',
+    image: '/cloud_bouncer.jpeg',
     link: 'https://github.com/Kanishk2404/Cloud-Bouncer',
   },
 
@@ -20,7 +20,7 @@ const projects = [
       roles: 'I was responsible for the entire lifecycle of the project, including website development, optimization, community building, and promotional strategies. I also handled content creation and monetization strategies, managed a team of 15 admins and 6 core admins.',
 
       skills: ['WordPress, HTML, CSS, SEO, and AdSense, Team Management, Leading'],
-      image: '/src/anicafe_project.jpeg',
+      image: '/anicafe_project.jpeg',
       // image: 'https://media.licdn.com/dms/image/D5622AQEwvmxgpC5UPw/feedshare-shrink_1280/0/1714640192870?e=1725494400&v=beta&t=EQfU_a7ls4dLlWUr8T3OovCrcaQNRkahNZ4rS3bXEfc',
       link: 'https://anicafe.xyz/',
     },
@@ -32,7 +32,7 @@ const projects = [
       description: 'Started my cyber security internship. Indulged myself in hardware security, then onto the encryption of algorithms and using AWS KMS, using KMS is still going on.Managing the SEO team, Gonna add this in new project once this is completed',
       skills: ['Hardware Security, Cryptography, Python, AWS, SEO'],
       // image: 'https://media.licdn.com/dms/image/D5622AQEIoVP5kMKeBQ/feedshare-shrink_1280/0/1721377746425?e=1725494400&v=beta&t=2GCLXgjw7IcDPOUhn7GNhheUIJBh94aFidwpCqKlIfc',
-      image: '/src/intern.jpeg',
+      image: '/intern.jpeg',
       link: 'https://github.com/Kanishk2404/Restaurant.github.io',
     },
     
@@ -52,7 +52,7 @@ const projects = [
       title: 'API project',
       description: 'Made use of get, post, put , delete API using postman. Created a book management system ',
       skills: ['API, Express js, Node js, React'],
-      image: '/src/api_img.png',
+      image: '/api_img.png',
       link: 'https://github.com/Kanishk2404/API',
     },
 
