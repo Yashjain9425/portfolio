@@ -1,0 +1,93 @@
+/* src/pages/Contact.css */
+
+.contact-container {
+  padding: 20px;
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* White text */
+  max-width: 90%; /* Adjusted for better responsiveness */
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  margin-bottom: 80px; /* Ensure space for footer */
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.form-column {
+  flex: 1;
+  min-width: 280px; /* Ensure columns don't get too narrow */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #2a2a2a; /* Darker input background */
+  color: #ffffff; /* White text */
+  box-sizing: border-box;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: none; /* Disable resizing */
+}
+
+.form-group button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-group button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 5px;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 600px) {
+  .contact-container {
+    max-width: 100%; /* Full width on small screens */
+    margin-bottom: 120px; /* More space for footer */
+  }
+
+  .form-group button {
+    font-size: 0.875rem; /* Slightly smaller button text */
+    padding: 12px; /* Larger button padding */
+  }
+}
